@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearDrinkLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drinkBackground"
+    android:orientation="vertical"
+    tools:context=".fragments.DrinkFragment">
+
+    <TextView
+        android:id="@+id/drinkName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:gravity="left"
+        android:text="Drink name:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+
+    <TextView
+        android:id="@+id/drinkType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/drinkName"
+        android:layout_gravity="left"
+        android:layout_margin="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:gravity="left"
+        android:text="Drink type:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:text="Drink recipe:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/drinkRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_margin="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:gravity="left"
+        android:maxHeight="200dp"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:text="Drink ingredients:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:id="@+id/drinkIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_margin="8dp"
+        android:background="@color/drinkTextViewColor"
+        android:gravity="left"
+        android:maxHeight="200dp"
+        android:scrollbars="vertical"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <Button
+        android:id="@+id/buttonForDrink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/drinkButton"
+        android:text="Request a drink"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+</LinearLayout>
